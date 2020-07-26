@@ -52,6 +52,16 @@ body{
     font-weight: 700;
 }
 
+#currenttime2{
+    font-size: 14px;
+    font-weight: 700;
+}
+
+#currenttime3{
+    font-size: 14px;
+    font-weight: 700;
+}
+
 .status-components i{
     width: 20px;
     height: auto;
@@ -59,10 +69,10 @@ body{
 }
 
 .header{
-    width: 75%;
+    width: 70%;
     font-size: 18px;
     font-weight: 900;
-    margin: 15px 0;
+    margin: 10px 0;
 }
 
 .search-bar{
@@ -264,6 +274,45 @@ textarea:focus, input:focus{
     padding-bottom: 6px;
 }
 
+.nutrition{
+    background-color: #fff;
+    border-radius: 20px 20px 0 0;
+    padding: 12px 12px 20px;
+}
+
+.nutrition-title{
+    font-size: 10px;
+    font-weight: 700;
+    margin: 0 0 8px;
+}
+
+.nutrition-flex{
+    display: flex;
+    justify-content: space-around;
+}
+
+.nutrient-wrapper{
+    width: 22%;
+    height: auto;
+    border-right: 1px solid #ccc;
+    text-align: center;
+}
+
+.nutrient-wrapper:nth-child(4){
+    border: none;
+}
+
+.nutrient{
+    font-size: 10px;
+    font-weight: 700;
+    margin: 0 0 5px;
+}
+
+.quantity{
+    font-size: 9px;
+    color: #a59c9c;
+}
+
 .box-image{
     margin: 2.5rem auto 0;
 }
@@ -278,9 +327,10 @@ textarea:focus, input:focus{
 
 .kitchen-story{
     background-color: #fff;
-    border-radius: 20px 20px 0 0;
+    border-radius: 20px 20px 10px 10px;
     padding: 2rem 1.5rem;
     text-align: center;
+    height: auto;
 }
 
 .story-header{
@@ -309,5 +359,5 @@ textarea:focus, input:focus{
 .add-sign img{
     width: 20px;
     height: 20px;
-
+}
 
