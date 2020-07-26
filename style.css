@@ -1,0 +1,362 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #e9ece4;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.box{
+    flex: 0 1 280px;
+    height: auto;
+    margin: 1.2rem;
+    background-color: #f1f3ec;
+    border-radius: 10px;
+}
+
+.box:nth-child(1){
+    padding: 10px 15px 15px;
+}
+
+.status-bar{
+    display: flex;
+    justify-content: space-between;
+}
+
+.box:nth-child(2) .status-bar, .box:nth-child(3) .status-bar{
+    margin: 10px 15px 10px;
+}
+
+.time{}
+
+.status-components i{
+    width: 20px;
+    height: auto;
+    padding: 0;
+}
+
+.header{
+    width: 75%;
+    font-size: 18px;
+    font-weight: 900;
+    margin: 15px 0;
+}
+
+#recipe-search{
+    width: 100%;
+    border: none;
+    border-radius: 30px;
+    padding: 10px 15px;
+    margin-bottom: 18px;
+    box-shadow: 0px 14px 24px 2px rgb(230, 222, 222);
+}
+
+textarea:focus, input:focus{
+    outline: none;
+}
+
+.title, .recipe-otw-title{
+    font-size: 12px;
+    font-weight: 700;
+    margin-bottom: 8px;
+}
+
+.card-wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+
+.card{
+    width: 48.4%;
+    height: auto;
+    background-color: #fafaf7;
+    border-radius: 12px;
+    display: grid;
+    place-items: center;
+    padding: 25px 0 5px;
+    margin-bottom: 15px;
+}
+
+.card img{
+    width: 90%;
+    height: auto;
+}
+
+.meal{
+    text-align: center;
+}
+
+.meal-title{
+    font-size: 11px;
+    font-weight: 700;
+}
+
+.duration{
+    font-size: 9px;
+    margin: 3px 0;
+    color: #a59c9c;
+}
+
+.icons-wrapper{
+    display: flex;
+    justify-content: center;
+    margin: 5px 0;
+}
+
+.heart{
+    border-radius: 50%;
+    background-color: #fff;
+    padding: 3px;
+    margin-right: 4px;
+    display: grid;
+    place-items: center;
+}
+
+.arrow{
+    border-radius: 50%;
+    background-color: #fff;
+    padding: 2px;
+}
+
+.arrow img{
+    width: 20px;
+    height: 20px;
+    display: grid;
+    place-items: center;
+}
+
+.relative-img{
+    position: relative;
+    background-color: #fff;
+    border-radius: 15px;
+    padding: 5px 0;
+    display: grid;
+    place-items: center;
+}
+
+.relative-img img{
+    width: 80%;
+    height: auto;
+}
+
+.rating{
+    position: absolute;
+    top: 0;
+    left: 80%;
+    width: 50px;
+    height: 25px;
+    background-color: #fbcec2;
+    border-radius: 0 15px 0 15px;
+    display: grid;
+    place-items: center;
+    font-size: 12px;
+    font-weight: 700;
+    color: #cc8774;
+}
+
+.box2-image img{
+    width: 100%;
+    height: auto;
+}
+
+.guide{
+    background-color: #f8f9f6;
+    border-radius: 20px 20px 0 0;
+    padding: 12px 15px 0 12px;
+}
+
+.difficulty{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 11px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.peace-sign{
+    width: 16px;
+    height: 16px;
+}
+
+.border-line{
+    border-bottom: 1px solid #ccc
+}
+
+.steps-wrapper{
+    display: flex;
+    justify-content: space-around;
+    margin: 12px 0 5px;
+}
+
+.step{
+    width: 15%;
+    text-align: center;
+}
+
+.step img{
+    width: 100%;
+    height: 50%;
+}
+
+.step-title{
+    font-size: 9px;
+    font-weight: 700;
+}
+
+.step-timer{
+    font-size: 6px;
+    color: #a59c9c;
+}
+
+#utensils-header{
+    font-size: 11px;
+    font-weight: 700;
+    margin: 8px 0;
+}
+
+.utensils-text{
+    font-size: 9px;
+    color: #a59c9c;
+    line-height: 1rem;
+    padding-bottom: 6px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
