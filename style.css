@@ -220,7 +220,7 @@ textarea:focus, input:focus{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    font-size: 11px;
+    font-size: 12px;
     font-weight: 700;
     margin-bottom: 10px;
 }
@@ -262,7 +262,7 @@ textarea:focus, input:focus{
 }
 
 #utensils-header{
-    font-size: 11px;
+    font-size: 12px;
     font-weight: 700;
     margin: 8px 0;
 }
@@ -281,7 +281,7 @@ textarea:focus, input:focus{
 }
 
 .nutrition-title{
-    font-size: 10px;
+    font-size: 12px;
     font-weight: 700;
     margin: 0 0 8px;
 }
