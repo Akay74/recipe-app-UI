@@ -250,8 +250,8 @@ textarea:focus, input:focus{
 }
 
 .step img{
-    width: 24px;
-    height: 24px;
+    width: 26px;
+    height: 26px;
 }
 
 .step-title{
@@ -261,7 +261,7 @@ textarea:focus, input:focus{
 }
 
 .step-timer{
-    font-size: 6px;
+    font-size: 8px;
     color: #a59c9c;
 }
 
@@ -275,14 +275,14 @@ textarea:focus, input:focus{
     font-size: 9px;
     color: #a59c9c;
     line-height: 1rem;
-    padding-bottom: 6px;
+    padding-bottom: 9px;
 }
 
 .nutrition{
     background-color: #fff;
     border-radius: 20px 20px 10px 10px;
     padding: 12px 12px 20px;
-    height: 154px;
+    height: 147.5px;
 }
 
 .nutrition-title{
